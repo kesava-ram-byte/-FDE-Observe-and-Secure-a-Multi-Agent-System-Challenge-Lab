@@ -1,0 +1,23 @@
+# Python virtual environments & caches
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+*credentials*.json
+
+# Terraform state & caches
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# IDE & OS metadata
+.vscode/
+.DS_Store
